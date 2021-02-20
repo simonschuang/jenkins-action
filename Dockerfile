@@ -5,3 +5,5 @@ RUN apk add git && \
   go install -i -n github.com/simonschuang/jenkins-action && \
   go install -i github.com/simonschuang/jenkins-action
 
+
+ENTRYPOINT ["jenkins-action"]
